@@ -14,6 +14,13 @@ def mostrar_inventario(inventario):
               f"Precio: {product['precio']} | "
               f"Cantidad: {product['cantidad']}")
 
+def eliminar_inventario(inventario, nombre):
+    for product in inventario:
+        if product["nombre"] == nombre:
+            inventario.remove(product)
+            print(f"Producto {'nombre'} eliminado")
+            return
+
 if __name__ == "__main__":
     inventario = []
 
@@ -30,8 +37,11 @@ if __name__ == "__main__":
             inventario.append(producto)
 
             mostrar_inventario(inventario)
-        # elif opcion == "2":
-        #     #todo
+
+        elif opcion == "2":
+            nombre_producto = input("Introduce el nombre del producto: ")
+            eliminar_inventario(inventario, nombre_producto)
+
         elif opcion == "3":
             mostrar_inventario(inventario)
         # elif opcion == "4":
