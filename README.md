@@ -40,7 +40,9 @@ Este repositorio contiene los ejercicios y talleres desarrollados durante la mat
 
 ## Librerías Utilizadas:
 
-*(Completar con las librerías necesarias)*
+* `pillow` >= 11.1.0
+* `pandas` >= 11.1.0
+* `numpy` >= 2.2.2
 
 ---
 
