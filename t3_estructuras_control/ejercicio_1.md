@@ -1,6 +1,6 @@
 # Ejercicio 1:
 ## 1. ¿Cuál es el propósito de la función enumerate en Python?
-La función enumerate en Python se utiliza para recorrer un iterable 
+La función `enumerate` en Python se utiliza para recorrer un iterable 
 (como una lista, tupla o cadena) mientras se obtiene un contador automático 
 junto con los elementos. Esto es útil cuando necesitas tanto el índice como 
 el valor al mismo tiempo en un bucle.
