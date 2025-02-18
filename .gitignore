@@ -171,8 +171,8 @@ cython_debug/
 .pypirc
 
 # Other
-lp_ejercicio_1.iml
-misc.xml
-modules.xml
-vcs.xml
+.idea/lp_ejercicio_1.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
 
