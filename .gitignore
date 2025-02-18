@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Other
+lp_ejercicio_1.iml
+misc.xml
+modules.xml
+vcs.xml
+
