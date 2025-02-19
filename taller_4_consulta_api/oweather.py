@@ -12,7 +12,7 @@ def obtener_coordenadas(city):
     response = requests.get(f'http://api.openweathermap.org/geo/1.0/direct?q={city}&limit=1&appid={API_KEY}')
     response.raise_for_status()
     data = response.json()[0]
-    return (data['lon'], data['lat'])
+    return data['lon'], data['lat']
 
 def main():
     city = 'Seville'
